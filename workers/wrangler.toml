@@ -1,0 +1,9 @@
+name = "blackroad-health-monitor"
+main = "health-monitor.ts"
+compatibility_date = "2024-12-01"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[vars]
+DEPLOY_URL = ""
